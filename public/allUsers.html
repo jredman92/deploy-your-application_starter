@@ -15,7 +15,7 @@
         type="button"
         class="btn btn-primary"
         style="font-size: 3em"
-        onclick="data()"
+        onclick="accounts()"
       >
         Show All Data</button
       ><br />
@@ -25,7 +25,7 @@
 
   <script>
     // query server and list users
-    function data() {
+    function accounts() {
       const status = document.getElementById("status");
       const url = "/accounts";
       let html = "";
